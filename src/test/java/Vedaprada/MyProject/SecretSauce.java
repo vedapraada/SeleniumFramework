@@ -37,7 +37,7 @@ public class SecretSauce {
 	driver.findElement(By.id("back-to-products")).click();
 	driver.findElement(By.id("react-burger-menu-btn")).click();
 	driver.findElement(By.linkText("Logout")).click();
-
+	driver.close();
 	}
 
 }
